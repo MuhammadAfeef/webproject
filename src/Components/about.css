@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.aboutPage{
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 100%
+    
+}
+.desc{
+    display: flex;
+    position: relative;
+    padding: 20px;
+}
+
+.aBoutimg{
+    box-shadow: 10px 10px 20px rgba(0, 0,0, 0.9);
+    border-radius: 10px;
+}
+.Btn{
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 500;
+    border: 1px solid #133978;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #fff;
+    background: transparent;
+    border-radius: 30px;
+    background: #0A1932;
+    margin-left: 20px;
+}
+.aboutItem>h1{
+    font-weight: 800;
+    color: #133978;
+}
+.Btn:hover{
+    background:#172E55 ;
+}
